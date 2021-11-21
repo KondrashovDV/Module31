@@ -1,4 +1,7 @@
 public class UtilComp {
+    private UtilComp() {
+
+    }
     public static StudComp getStudComp(StudCompType studCompType){
         switch (studCompType)
         {
